@@ -26,11 +26,13 @@ jobs:
       run: cd auto-generated-sdk && mvn clean package
         
     - name: Build Tests
-      run: cd tests && mvn clean package
+      run: echo "Not configured"
+      # run: cd tests && mvn clean package
 
     - name: Run Tests
-      run: echo "Tests ran successfully" 
+      run: echo "Not configured" 
       # run: cd tests && mvn -q test -Dtest=ApiTestsRunner
 
     - name: Build Examples
-      run: cd examples && mvn clean package
+      run: echo "Not configured"
+      # run: cd examples && mvn clean package
