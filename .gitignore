@@ -1,0 +1,12 @@
+# Exclude the target folder
+target/
+.settings/
+.factorypath
+*.class
+*.jar
+.vscode/
+bin/
+.classpath
+.project
+.idea/
+output.pdf
